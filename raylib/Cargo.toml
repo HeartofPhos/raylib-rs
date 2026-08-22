@@ -20,7 +20,7 @@ serde_json = { version = "1.0.64", optional = true }
 
 # Math-ecosystem adapters are opt-in; the conversions live in raylib-sys behind
 # matching features. The default build pulls zero math/serialization deps.
-glam = { version = "0.30", optional = true }
+glam = { version = "0.32", optional = true }
 mint = { version = "0.5", optional = true }
 # Opt-in bridge from raylib's TraceLog into the Rust `log` facade.
 log = { version = "0.4", optional = true }
